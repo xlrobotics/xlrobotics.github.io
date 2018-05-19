@@ -30,14 +30,14 @@
                                 
 								<h1>Xuan Liu</h1>
                                 
-								<p>Hi, I'm a PhD Student studying robotics at Worcester Polytechnic Institute (WPI). My research interests are hierarchical reinforcement learning and humanoid robot locomotion. My <a href="https://html5up.net">CV</a> can be found here. </p>
+								<p>Hi, I'm a PhD Student studying robotics at Worcester Polytechnic Institute (WPI). My research interests are hierarchical reinforcement learning and humanoid robot locomotion. For more details please check my <a href="files/XUANLIU2018.pdf" download>CV</a> here. </p>
 							</div>
 						</div>
 						<nav>
 							<ul>
 								<li><a href="#news">News</a></li>
-								<li><a href="#work">Projects</a></li>
-								<li><a href="#about">Papers</a></li>
+								<li><a href="#research">Research</a></li>
+								<li><a href="#papers">Papers</a></li>
 								<li><a href="#contact">Contact</a></li>
                                 
 								<!--<li><a href="#elements">Elements</a></li>-->
@@ -56,19 +56,38 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
 							</article>
 
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+						<!-- Research -->
+							<article id="research">
+								<h2 class="major">Research</h2>
+                                <h4>Compositional  Reinforcement Learning  with  Temporal  Logic  Constraints</h4>
+                                <span class="logo"><img src="images/ltl01.png" alt="" width = "500"/></span>
+                                <p>
+                                Optimal planning in Markov decision processes under temporal logic constraints is central to probabilistic model checking and synthesis. However, for complex specifications, scalability poses a main barrier for applying temporal-logic constrained planning in practical applications since the size of policy grows exponentially in the size of the specification formula. To tackle this issue, we proposed a compositional planning approach that decomposes the original temporal logic-constrained planning problem to several problems with smaller and simpler specifications. By establishing the relation between compositional reasoning in logic and composability of a class of near-optimal policies called entropy-regulated optimal policies, we develop an algorithm that is able to generate modular sub-policies under the set of simple specifications and further reuse and compose them to solve for a good initial policy under the original specification. Moreover, based on the option framework in  hierarchical MDP planning,  the optimal policy can be obtained efficiently via planning with both primitive actions, sub-policies, and the "compositions" (or precisely, arbitration) of sub-policies. We demonstrate the correctness and efficiency of the proposed method in several stochastic planning examples in Markov decision processes under temporal logic constraints.
+                                </p>
+								<h4>Dynamic Motor Primitives for Bipedal Walking</h4>
+                                <span class="logo"><img src="images/pic02.jpg" alt="" width = "400"/></span>
+                                <h4>CHLA Human Robot Interaction Project</h4>
+                                <span class="logo"><img src="images/CHLADiagram.png" alt="" width = "400"/></span>
+                                <p>
+                                This project is a collaboration between the Interaction Lab and Children's Hospital Los Angeles (CHLA) to reduce pain and anxiety in children (aged 4-12) who are receiving an intravenous (IV) line. From the medical literature, we know that IV placement is the most common cause of pain and distress in children’s hospitals. Working with Dr. Margaret Trost and Child Life specialists at CHLA, we developed a robot buddy (the Maki robot platform: renamed “IVEY”) as a potential intervention to reduce negative outcomes.
+                                <br />
+                                For details please check the project page <a href = "http://robotics.usc.edu/interaction/projects/desc2.php?name=personalizedanxiety">here.</a><br />
+                                An early version of implementation can be found <a href = "https://github.com/xlrobotics/coping_game">here.</a>
+                                </p>
+                                
+								<h4>Self-balanced Single Legged Hopping Robot</h4>
+                                <span class="logo"><img src="images/pic02.jpg" alt="" width = "400"/></span>
 							</article>
 
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
+						<!-- Papers -->
+							<article id="papers">
+								<h2 class="major">Papers</h2>
 								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+								<p>Journal Papers</p>
+                                <p>Conference Papers <br />
+                                [1] Liu, Xuan, CHENGLONG FU, and YU ZHOU. "The Key Factors for a One-Legged Robot to Keep Balance When Hopping in Place." ASSISTIVE ROBOTICS: Proceedings of the 18th International Conference on CLAWAR 2015. 2016.
+                                </p>
+                                <p>Book Chapters</p>
 							</article>
 
 						<!-- Contact -->
@@ -96,7 +115,7 @@
 									<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 									<li><a href="#" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-									<li><a href="https://github.com/lx15190322" class="icon fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://github.com/xlrobotics" class="icon fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</article>
 
@@ -346,10 +365,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; <a href="https://html5up.net">CIRL Lab</a>, 85 Precott St, Worcester, MA, 01605, United States. </p>
-                        <a href="https://www.linkedin.com/mynetwork/">
-                            <img src="images/linkedin.png" alt="" width = "100px"/>
-                        </a>
+						<p class="copyright">&copy; <a href="https://labs.wpi.edu/cirl">CIRL Lab</a>, 85 Precott St, Suit 201, Worcester, MA, 01605, United States. </p>
 					</footer>
 
 			</div>
